@@ -5,4 +5,5 @@ Identifica tecnologías web utilizadas por un servidor: frameworks, CMS, servido
 - Tiene una base de datos de firmas de tecnologías y sus patrones de detección.
 
 Comando:
-	![[Pasted image 20250704095927.png]]
+
+![Pasted image 20250704095927](../Imagenes/Pasted%20image%2020250704095927.png)
