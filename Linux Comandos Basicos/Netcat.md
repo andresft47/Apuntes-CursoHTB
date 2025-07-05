@@ -1,4 +1,5 @@
-Esuna herramienta que nos permite interactuar con los puestos TCP/UDP, uno de sus usos principlaes es la conexion a shells, ademas nos podemos conectar a traves de cualquier puerto de escucha e interactuar con el servicio que ejecuta ese puerto de escucha.
+# Netcat
+Es una herramienta que nos permite interactuar con los puestos TCP/UDP, uno de sus usos principales es la conexión a shells, además nos podemos conectar a través de cualquier puerto de escucha e interactuar con el servicio que ejecuta ese puerto de escucha.
 
 Comandos:
 	Permite leer y escribir datos a traves de una conexion de red  usando los pertos TPC/UDP

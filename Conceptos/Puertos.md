@@ -1,3 +1,4 @@
+# Puertos
 Son puntos virtuales donde empiezan y terminan las conexiones de red y son administrados por el SO host y estos permiten a los ordenadores diferenciar entre distintos tipos de trafico.
 Hay puestos que están estandarizados para todos aquellos dispositivos conectados a una red
 	Puerto: 80 (HTTP trafico de sitios web)

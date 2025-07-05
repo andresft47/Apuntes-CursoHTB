@@ -1,3 +1,4 @@
+# Scripts de enumeración automática
 Estos scripts ejecutan comandos del sistema para **detectar debilidades comunes**:
 
 | SO      | Script comunes                              |

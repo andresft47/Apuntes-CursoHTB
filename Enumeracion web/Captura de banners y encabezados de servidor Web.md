@@ -1,3 +1,4 @@
+# Captura de banners y encabezados de servidor Web
 Es una herramienta de línea de comandos para hacer peticiones HTTP(s):
 - Ver headers HTTP
 - Enviar formularios

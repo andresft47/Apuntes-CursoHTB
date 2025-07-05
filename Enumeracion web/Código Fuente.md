@@ -1,3 +1,4 @@
+# Código Fuente
 Se puede ver el código fuente de una pagina web haciendo Ctrl + U, y nos permite encontrar:
 - Comentarios de desarrollador
 - Credenciales hardcodeadas

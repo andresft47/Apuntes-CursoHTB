@@ -1,3 +1,4 @@
+# Tmux (Multiplexores)
 Permite tener varias ventanas dentro de la misma terminal y la misma sesión controlado desde un mismo proceso.
 
 Iniciar Tmux con te comando:

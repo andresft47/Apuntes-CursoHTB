@@ -1,4 +1,4 @@
-
+# Conexión mediante VPN
 Permite conectarnos a un servicio VPN:
 	`sudo openvpn user.ovpn`
 

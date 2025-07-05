@@ -1,3 +1,4 @@
+# Base64
 Si no puedes usar red para transferir archivos (por firewall u otras restricciones),se puede **convertir el archivo en texto codificado en base64**:
 	`base64 archivo -w 0`
 Luego se pega esa cadena en la máquina remota y la decodificas:
