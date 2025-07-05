@@ -2,7 +2,9 @@
 Esta herramienta hace un escaneo de todos los puertos disponibles dada una dirección IP.
 
 Si utilizamos el comando nmap sin ninguna flag este solo analizara los 1000 puertos mas comunes.
-![[Pasted image 20250703182252.png]]
+
+![Pasted image 20250703182252](../Imagenes/Pasted%20image%2020250703182252.png)
+
 
 El PORT es el numero de puerto escaneado y su categoría, como es predeterminada sin ninguna flag este va a escanear solo los TCP.
 
