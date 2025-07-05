@@ -4,4 +4,5 @@ Los certificados SSL/TLS son otra fuente de información valiosa si se utiliza H
 ```
 https://10.10.10.121/
 ```
-![[Pasted image 20250704100550.png]]
+![Pasted image 20250704100550](../Imagenes/Pasted%20image%2020250704100550.png)
+
