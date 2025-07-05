@@ -1,0 +1,4 @@
+![[Pasted image 20250704201031.png]]
+
+![[Pasted image 20250704201937.png]]
+Hacemos el `nmap` del servidor con dirección `ip 10.129.31.247`, se usa `-sV` para ver las versiones de cada servicio, luego usamos un `-oA nibbles_nmap_http_enum` para guardar en tres estados el resultado, (`.nmap`, `.gnmap`, `.xml`).

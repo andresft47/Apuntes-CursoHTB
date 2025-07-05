@@ -1,0 +1,19 @@
+![[Pasted image 20250704172448.png]]!
+![[Pasted image 20250704172452.png]]
+![[Pasted image 20250704172634.png]]
+Utilizamos un `nmap` para escanear todos los puertos y el `-sV` para indicarnos que versión del servicio esta corriendo en ese puerto, y `-p 8080` para que escanee ese puerto en especifico
+
+![[Pasted image 20250704172847.png]]
+![[Pasted image 20250704172858.png]]
+Utilizamos también `nmap` pero ahora con la diferencia que vamos a escanear todos los puertos abiertos en esa ip con `-p-`, para identificar el puerto que esta asociado al servicio telnet.
+
+![[Pasted image 20250704173123.png]]
+utilizamos SMB para conectarnos al recurso compartido de la maquina con ip `10.129.42.256` usando el usuario llamado bob con contraseña: Welcome1(Se proporcionaba en el modulo).
+
+![[Pasted image 20250704173128.png]]
+y hacemos un cd al directorio flag donde se encuentra el archivo que nos piden, y le hacemos un `get flag.txt` para copiar el archivo del servidor remoto a mi maquina local.
+
+![[Pasted image 20250704173146.png]]
+![[Pasted image 20250704173149.png]]
+Leemos el archivo con un `cat`
+![[Pasted image 20250704173152.png]]

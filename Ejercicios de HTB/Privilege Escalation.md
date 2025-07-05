@@ -1,0 +1,28 @@
+![[Pasted image 20250704190352.png]]
+con ssh nos conectamos con el usuario `user1` ya que con ese tenemos las credenciales de la ip `94.237.55.43` a el puerto `52175`
+
+![[Pasted image 20250704190417.png]]
+Primero ejecutamos el comando `sudo -l` para saber que podemos ejecutar con nuestro usuario actual (user1), y  vemos que `user1` puede ejecutar el comando `/bin/bash` como si fuera el usuario `user2`.
+
+![[Pasted image 20250704191118.png]]
+luego ejecutamos sudo `-u user2 /bin/bash` lo cual nos permite escalar privilegios de usuario de user1 a user2
+
+![[Pasted image 20250704191103.png]]
+Después con leemos con cat el archivo flag.txt que esta en la ruta `/home/user2` , que es la pirmera flag.
+
+![[Pasted image 20250704191205.png]]
+Nos dirigimos a la ruta /root/.ssh/ donde esta la clave privada id_rsa, que nos sirve para acceder al sistema como root por ssh.
+![[Pasted image 20250704191222.png]]
+![[Pasted image 20250704190556.png]]
+Creamos un archivo `id_keyP.txt` en nuestra maquina local pegando la clave privada del ssh.
+
+![[Pasted image 20250704190607.png]]
+y después de crearlo cambiamos los permisos del `id_keyP.txt` para que solo el dueño pueda leer y escribir en ella, y tenemos que hacerlo por que el ssh no podemos acceder como usuario root si no tiene esta medida de seguridad.
+
+
+![[Pasted image 20250704190624.png]]
+Despues ingresamos al servidor por ssh y utilizamos `-i id_keyP.txt` para ingresar con nuestra clave privada con el usuario root.
+
+
+![[Pasted image 20250704190639.png]]
+Finalmente leemos el archivo `flag.txt` que es la segunda flag.
